@@ -1,0 +1,30 @@
+@import "/wxSearch/wxSearch.wxss";
+.container{
+    height: 100%;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+}
+.classifyContainer{
+    width: 20%;
+    height: 100%;
+    background-color:blue;
+}
+.classifyScroll{
+
+    background-color: lightgray;
+}
+
+.anchorContainer{
+    width: 80%;
+    height: 100%;
+}
+.anchorScroll{
+
+    background-color: green;
+}
+
+.item{
+    height: 200px;
+}

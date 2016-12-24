@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/UserInfo/UserInfo",
+    "pages/Search/Search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "直播"
+    },{
+      "pagePath": "pages/Search/Search",
+      "text": "搜索"
+    },{
+      "pagePath": "pages/UserInfo/UserInfo",
+      "text": "我"
+    }]
+  }
+}
